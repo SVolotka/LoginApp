@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		85FD0560286EADF800392A6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD055F286EADF800392A6B /* AppDelegate.swift */; };
 		85FD0562286EADF800392A6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0561286EADF800392A6B /* SceneDelegate.swift */; };
-		85FD0564286EADF800392A6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0563286EADF800392A6B /* ViewController.swift */; };
+		85FD0564286EADF800392A6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD0563286EADF800392A6B /* LoginViewController.swift */; };
 		85FD0567286EADF800392A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0565286EADF800392A6B /* Main.storyboard */; };
 		85FD0569286EADF800392A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85FD0568286EADF800392A6B /* Assets.xcassets */; };
 		85FD056C286EADF800392A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85FD056A286EADF800392A6B /* LaunchScreen.storyboard */; };
+		85FD05762871D76B00392A6B /* WellcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FD05752871D76B00392A6B /* WellcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		85FD055C286EADF800392A6B /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FD055F286EADF800392A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85FD0561286EADF800392A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85FD0563286EADF800392A6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85FD0563286EADF800392A6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		85FD0566286EADF800392A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85FD0568286EADF800392A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85FD056B286EADF800392A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85FD056D286EADF800392A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85FD05752871D76B00392A6B /* WellcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WellcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				85FD055F286EADF800392A6B /* AppDelegate.swift */,
 				85FD0561286EADF800392A6B /* SceneDelegate.swift */,
-				85FD0563286EADF800392A6B /* ViewController.swift */,
+				85FD0563286EADF800392A6B /* LoginViewController.swift */,
 				85FD0565286EADF800392A6B /* Main.storyboard */,
+				85FD05752871D76B00392A6B /* WellcomeViewController.swift */,
 				85FD0568286EADF800392A6B /* Assets.xcassets */,
 				85FD056A286EADF800392A6B /* LaunchScreen.storyboard */,
 				85FD056D286EADF800392A6B /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85FD0564286EADF800392A6B /* ViewController.swift in Sources */,
+				85FD0564286EADF800392A6B /* LoginViewController.swift in Sources */,
 				85FD0560286EADF800392A6B /* AppDelegate.swift in Sources */,
+				85FD05762871D76B00392A6B /* WellcomeViewController.swift in Sources */,
 				85FD0562286EADF800392A6B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +296,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +324,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
